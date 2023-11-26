@@ -85,6 +85,7 @@ if (process.env.NODE_ENV === 'production') {
 
 //
 
-const port = process.env.PORT || 4000;
+// const port = process.env.PORT || 4000;
+const port = 'https://e-commerce-backend-livid-theta.vercel.app/'
 
 app.listen(port, () => console.log(`Server running on port ${port}`));
