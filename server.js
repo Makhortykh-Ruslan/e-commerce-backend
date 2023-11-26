@@ -85,6 +85,6 @@ if (process.env.NODE_ENV === 'production') {
 
 //
 
-const port = process.env.PORT || 5001 || 'https://e-commerce-backend-hazel-tau.vercel.app/';
+const port = process.env.PORT || 5001;
 
 app.listen(port, () => console.log(`Server running on port ${port}`));
